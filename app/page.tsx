@@ -131,7 +131,6 @@ export default function Home() {
               >
                 Read Research Papers 
               </Link>
-
             </div>
           </div>
         </section>
@@ -145,15 +144,15 @@ export default function Home() {
               </h3>
             </div>
 
-            {/* Fully Round Trophy Graphic */}
+            {/* Fully Round Trophy Graphic & Badge Wrapper */}
             <div className="flex-shrink-0 flex flex-col items-center">
-              <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-[oklch(64.5%_0.246_16.439)]/40 bg-white flex items-center justify-center shadow-sm">
+              <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-[oklch(64.5%_0.246_16.439)]/40 bg-white flex items-center justify-center shadow-md p-1">
                 <Image
-                  src="/trophy.jfif"
+                  src="/trophy.png"
                   alt="FYP Winner 2026 Trophy"
-                  width={48}
-                  height={48}
-                  className="object-cover w-full h-full rounded-full"
+                  width={64}
+                  height={64}
+                  className="object-contain w-full h-full rounded-full"
                 />
               </div>
               <span className="text-[10px] font-bold text-[oklch(64.5%_0.246_16.439)] mt-1 uppercase tracking-wider">
